@@ -48,5 +48,9 @@ function showTable() {
 
 // Load data when page opens
 showTable();
+
+// Add event listener to button
+document.getElementById("submitBtn").addEventListener("click", saveAttendance);
+
 <button id="submitBtn">Save Attendance</button>
 </script>
