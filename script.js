@@ -48,4 +48,5 @@ function showTable() {
 
 // Load data when page opens
 showTable();
+<button id="submitBtn">Save Attendance</button>
 </script>
